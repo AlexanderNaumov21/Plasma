@@ -1,0 +1,163 @@
+
+.logo{
+text-align: center
+}
+#body {
+	flood-color: red;
+	margin: 0;
+	height: 100%;
+}
+html {
+	height: 100%;
+}
+header {
+	background-color:#f0f0f0 ;
+	padding-top: 1px;
+}
+
+
+.menu_div ul {
+	padding: 0;
+}
+.menu_div li {
+	display: inline ;	
+
+}
+.menu_div a {
+    padding:15px 9%;   		/*	% решает ширину пункта > использовать для адаптивности	*/
+    text-decoration: none;
+    color: black;
+    font-family: "Verdana", serif;
+    font-size:20px;
+    font-style: italic;
+    height:30px;
+    width:  ;  /* был пусто*/
+    transition-duration: 0.4s;
+    margin: 0 max 0;
+}
+.menu_div a:hover
+            {
+            	background-color: #87B751;         /*#FF0D33;       ADFF2F ; */
+            }
+
+
+ .photo_line {
+ 	height: auto;
+ 	width: 100%;
+ 	display:block; 
+ 	margin:0 auto;
+
+ 	background-image:url(image/fond31.jpg);
+	background-repeat:  no-repeat;
+	background-size: cover;
+ 	
+
+ }
+ .photo_line_line {
+ 	background-color:  #559908b3;   			/*#94de40b3	;	*/	/*#85ef0db3;	*/	 /*#85EF0D;			#999999;		красный	#FF0D33; */
+	height: 300px;
+	width: 300px;
+	position: relative;
+	top: 50 px;
+	left: 300 px;
+
+	margin-left: 15%;
+	margin-top: 0;
+}
+.photo_line_line_text {
+	padding-top: 40%;
+	font-family: "Verdana", serif;
+ 	text-align: center;
+ 	font-style: italic;
+ 	font-size: 30px;
+ 	font-weight: 900;
+
+ }
+ .main_1 {
+ 	 	min-height:100%;
+position: relative;
+ }
+ .main {
+padding: 5px; 
+max-width: 1024px;
+margin:10px auto;
+
+border-radius: 0px;
+ /*border: 3px groove #85ef0db3; */
+
+background-color: #f0f0f0  ;           /*	rgba(169, 244, 85, 0.01); */
+
+ }
+ .main_text {
+ 	padding: 10px;
+ 	margin: 0 auto 15px;
+ 	font-family: "Verdana", serif;
+ 	text-align: justify;
+ 	text-indent: 40px ;
+ }
+ 
+
+.footer {
+	position: absolute
+
+	width: 100%	;	/*	1034px;*/
+	height: 80px;
+	background-color:	#559908b3	;	/* #559908b3	;		*/	/*#94de40b3	;*/
+	margin: 0 auto;
+
+	font-family: "Verdana", serif;
+	font-style: italic;
+ 	font-size: 20px;
+ 	transition-duration: 0.4s;	
+}
+.footer_text {display: inline-block;}
+.footer_text_left {
+	float: left;
+	padding-left: 30px ;
+	padding-top: 15px;
+	text-align: center
+	vertical-align: middle;
+	height: 50px; 
+	}
+.footer_text_right {float: right; padding: 30px;}
+.footer_text_centr {padding: 30px;}
+
+
+@media screen and (max-width: 1260px) {
+.menu_div a {
+    padding:15px 7%; 
+	}
+}
+
+@media screen and (max-width: 500px) {  
+.menu_div li {
+ display: block;
+}
+}
+
+
+
+/*-------------------------------------------------*/
+
+
+.gallery_text {
+	text-align: center;
+	font-size: 25px;
+	font-family: "Verdana", serif;
+}
+.photo_gallery {
+	height: 400px;
+}
+
+/*-------------------------------------------------*/
+
+table {
+	margin-left: 100px;
+	width: 600px;
+	font-size: 20px;
+	font-family: "Verdana", serif;
+}
+/*-----------------------------------------------------*/
+.main {
+	height: 200%;
+}
